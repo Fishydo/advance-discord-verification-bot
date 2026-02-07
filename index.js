@@ -13,7 +13,7 @@ const client = new Discord.Client({intents: [Discord.Intents.FLAGS.GUILDS, Disco
 
 const token = process.env.TOKEN
 
-client.login("MTQ2OTYxNTYyODUwNjc2MzQ2OQ.G2tLt7.XckdYfcccnC6X7O_y_aw-aaLbUYhRWTap5TWAE")
+client.login("discord")
 
 const db = new Database()
 
